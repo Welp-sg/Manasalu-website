@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manasalu Japanese Language & Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="./images/logo2.jpg" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Aboutus.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="contacts.html">CONTACT</a></li>
+                <li><a href="Additional.html">ADDITIONAL</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <h1>Japanese Agriculture & Rice production</h1>
+</section>
+<!--------about us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>"Intoducing Japanese Agriculture to Youths"</h1>
+<p>The consultancy facilitates educational experiences for visitors interested in rice plantation and agriculture. Guests are welcomed to observe and participate in various aspects of rice cultivation, learning about planting methods and farming techniques. Additionally, the consultancy assists in the sale and import of rice products, connecting producers with international markets. This dual approach of tourism and trade helps sustain local agricultural practices while making quality rice varieties available to a wider audience.
+ </p>
+ <a href="contacts.html" class="hero-btn red-btn">CONTACT US FOR MORE</a>
+        </div>
+        <div class="about-col">
+            <img src="./Images/rice-plantations-field.jpg">
+        </div>
+    </div>
+</section>
+
+<!--------Footer---------->
+<section class="footer">
+    <h4>Manasalu institute</h4>
+    <p>Trusted Advisors for Japan-Focused Insights Since 2016</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/studyinjapan12"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>  
+</div>
+</section>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-300px";
+    }
+</script>
+
+</body>
+</html>
